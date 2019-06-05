@@ -1,0 +1,7 @@
+@import "../lib-sass/mes-mixins.scss";
+p{
+    strong{
+        color: blue;
+    }
+    @include les-navigateurs();
+}

@@ -1,0 +1,7 @@
+@mixin les-navigateurs($transformation) {
+    -ms-transform: $transformation;
+    -webkit-transform: $transformation;
+    -o-transform: $transformation;
+    -moz-transform: $transformation;
+    transform: $transformation;
+}
